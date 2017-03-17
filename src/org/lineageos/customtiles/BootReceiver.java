@@ -25,7 +25,7 @@ import android.os.Build;
 import android.os.SystemProperties;
 import android.text.TextUtils;
 
-import cyanogenmod.power.PerformanceManager;
+import mokee.power.PerformanceManager;
 
 public class BootReceiver extends BroadcastReceiver {
 

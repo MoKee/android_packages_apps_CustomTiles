@@ -26,7 +26,7 @@ import android.provider.Settings;
 import android.service.quicksettings.Tile;
 import android.service.quicksettings.TileService;
 
-import cyanogenmod.providers.CMSettings;
+import mokee.providers.MKSettings;
 
 public class UsbTetherTile extends TileService {
 
@@ -105,8 +105,8 @@ public class UsbTetherTile extends TileService {
     }
 
     private boolean isAdbNetworkEnabled() {
-        return CMSettings.Secure.getInt(getContentResolver(),
-                CMSettings.Secure.ADB_PORT, 0) > 0;
+        return MKSettings.Secure.getInt(getContentResolver(),
+                MKSettings.Secure.ADB_PORT, 0) > 0;
     }
 
 }

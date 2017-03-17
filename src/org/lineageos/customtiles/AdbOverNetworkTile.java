@@ -30,7 +30,7 @@ import android.service.quicksettings.TileService;
 
 import java.net.InetAddress;
 
-import cyanogenmod.providers.CMSettings;
+import mokee.providers.MKSettings;
 
 public class AdbOverNetworkTile extends TileService {
 
@@ -46,7 +46,7 @@ public class AdbOverNetworkTile extends TileService {
         super.onStartListening();
 
         getContentResolver().registerContentObserver(
-                CMSettings.Secure.getUriFor(CMSettings.Secure.ADB_PORT),
+                MKSettings.Secure.getUriFor(MKSettings.Secure.ADB_PORT),
                 false, mObserver);
         getContentResolver().registerContentObserver(
                 Settings.Global.getUriFor(Settings.Global.ADB_ENABLED),
@@ -66,8 +66,8 @@ public class AdbOverNetworkTile extends TileService {
     public void onClick() {
         super.onClick();
 
-        CMSettings.Secure.putIntForUser(getContentResolver(),
-                CMSettings.Secure.ADB_PORT,
+        MKSettings.Secure.putIntForUser(getContentResolver(),
+                MKSettings.Secure.ADB_PORT,
                 getQsTile().getState() == Tile.STATE_ACTIVE ? -1 : 5555,
                 UserHandle.USER_CURRENT);
 
@@ -104,8 +104,8 @@ public class AdbOverNetworkTile extends TileService {
     }
 
     private boolean isAdbNetworkEnabled() {
-        return CMSettings.Secure.getInt(getContentResolver(),
-                CMSettings.Secure.ADB_PORT, 0) > 0;
+        return MKSettings.Secure.getInt(getContentResolver(),
+                MKSettings.Secure.ADB_PORT, 0) > 0;
     }
 
 }
