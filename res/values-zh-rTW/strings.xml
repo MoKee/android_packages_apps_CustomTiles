@@ -19,7 +19,7 @@
   <string name="app_name">自訂圖塊</string>
   <!-- Labels -->
   <string name="ambient_display_label">環境顯示</string>
-  <string name="network_adb_label">網路 ADB</string>
+  <string name="network_adb_label">透過 ADB 網路</string>
   <string name="heads_up_label">浮動通知</string>
   <string name="sync_label">同步資料</string>
   <string name="volume_panel_label">音量面板</string>

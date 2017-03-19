@@ -19,5 +19,7 @@
   <!-- Labels -->
   <string name="ambient_display_label">Індыкацыя падзей</string>
   <string name="network_adb_label">Адладка па сетцы</string>
+  <string name="sync_label">Сінхранізацыя</string>
+  <string name="usb_tether_label">USB-мадэм</string>
   <!-- Caffeine -->
 </resources>
