@@ -18,11 +18,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Пользовательские плитки</string>
   <!-- Labels -->
-  <string name="ambient_display_label">Индикация событий</string>
+  <string name="ambient_display_label">Активный дисплей</string>
   <string name="network_adb_label">Отладка по сети</string>
+  <string name="heads_up_label">Всплывающие уведомления</string>
   <string name="sync_label">Синхронизация</string>
   <string name="volume_panel_label">Панель громкости</string>
   <string name="usb_tether_label">USB-модем</string>
   <string name="battery_saver_label">Экономия батареи</string>
   <!-- Caffeine -->
+  <string name="caffeine_label">Запрет сна</string>
 </resources>
