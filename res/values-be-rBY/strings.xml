@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Карыстальніцкія пліткі</string>
   <!-- Labels -->
-  <string name="ambient_display_label">Індыкацыя падзей</string>
+  <string name="ambient_display_label">Актыўны дысплей</string>
   <string name="network_adb_label">Адладка па сетцы</string>
   <string name="heads_up_label">Усплывальныя апавяшчэнні</string>
   <string name="sync_label">Сінхранізацыя</string>
@@ -26,4 +26,5 @@
   <string name="usb_tether_label">USB-мадэм</string>
   <string name="battery_saver_label">Эканомія зараду</string>
   <!-- Caffeine -->
+  <string name="caffeine_label">Забарона сну</string>
 </resources>
