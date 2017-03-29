@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Допълнителни плочки</string>
   <!-- Labels -->
-  <string name="ambient_display_label">Активнен дисплей</string>
+  <string name="ambient_display_label">Активен дисплей</string>
   <string name="network_adb_label">ADB през мрежата</string>
   <string name="heads_up_label">Изскачащи известия</string>
   <string name="sync_label">Синхронизирай</string>
