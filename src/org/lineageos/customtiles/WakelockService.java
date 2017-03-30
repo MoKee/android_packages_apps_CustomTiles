@@ -41,7 +41,6 @@ public class WakelockService extends Service {
     private PowerManager.WakeLock createWakeLock() {
         PowerManager.WakeLock newWakeLock = ((PowerManager) getSystemService(POWER_SERVICE))
                 .newWakeLock(PowerManager.SCREEN_BRIGHT_WAKE_LOCK, "CaffeineTile");
-        newWakeLock.setReferenceCounted(false);
 
         return newWakeLock;
     }
@@ -89,7 +88,7 @@ public class WakelockService extends Service {
         public void onReceive(Context context, Intent intent) {
             if (Intent.ACTION_SCREEN_OFF.equals(intent.getAction())) {
                 if (wakeLock.isHeld()) {
-                    toggle();
+                    wakeLock.release();
                 }
             }
         }
