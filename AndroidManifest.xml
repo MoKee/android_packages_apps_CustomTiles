@@ -66,7 +66,7 @@
         <!-- ADB over network -->
         <service
             android:name=".AdbOverNetworkTile"
-            android:icon="@drawable/ic_network_adb_on"
+            android:icon="@drawable/ic_network_adb_off"
             android:label="@string/network_adb_label"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
@@ -110,7 +110,7 @@
         <!-- Caffeine-->
         <service
             android:name=".CaffeineTile"
-            android:icon="@drawable/ic_caffeine_on"
+            android:icon="@drawable/ic_caffeine_off"
             android:label="@string/caffeine_label"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
