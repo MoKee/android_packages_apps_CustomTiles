@@ -20,10 +20,8 @@
   <!-- Labels -->
   <string name="ambient_display_label">Drita e ekranit sipas ambientit</string>
   <string name="network_adb_label">ADB mbi rrjet</string>
-  <string name="heads_up_label">Heads up</string>
   <string name="sync_label">Sinkronizim</string>
   <string name="volume_panel_label">Paneli i volumit</string>
-  <string name="usb_tether_label">USB tethering</string>
   <string name="battery_saver_label">Kursimi i baterisë</string>
   <!-- Caffeine -->
   <string name="caffeine_label">Kafeina</string>
