@@ -18,8 +18,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Екстра плитки</string>
   <!-- Labels -->
-  <string name="ambient_display_label">Активація екрана</string>
-  <string name="network_adb_label">ADB по мережі</string>
+  <string name="ambient_display_label">Інформаційний екран</string>
+  <string name="network_adb_label">ADB через мережу</string>
   <string name="heads_up_label">Сплив. сповіщення</string>
   <string name="sync_label">Синхронізація</string>
   <string name="volume_panel_label">Панель гучності</string>
