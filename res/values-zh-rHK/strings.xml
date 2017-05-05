@@ -16,12 +16,12 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">自訂圖塊</string>
+  <string name="app_name">自訂瓷磚</string>
   <!-- Labels -->
   <string name="ambient_display_label">環境顯示</string>
   <string name="network_adb_label">ADB 透過網絡</string>
   <string name="heads_up_label">浮動通知</string>
-  <string name="sync_label">同步資料</string>
+  <string name="sync_label">同步</string>
   <string name="volume_panel_label">音量面板</string>
   <string name="usb_tether_label">USB 網路共用</string>
   <string name="battery_saver_label">省電模式</string>
