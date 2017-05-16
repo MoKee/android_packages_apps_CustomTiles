@@ -16,8 +16,13 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">追加タイル</string>
   <!-- Labels -->
   <string name="ambient_display_label">アンビエント表示</string>
   <string name="network_adb_label">ネットワーク経由のADB</string>
+  <string name="sync_label">同期</string>
+  <string name="volume_panel_label">音量パネル</string>
+  <string name="usb_tether_label">USBテザリング</string>
+  <string name="battery_saver_label">バッテリーセーバー</string>
   <!-- Caffeine -->
 </resources>
