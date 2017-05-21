@@ -16,7 +16,13 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">الاختصارات الاضافية</string>
   <!-- Labels -->
+  <string name="ambient_display_label">إضاءة الشاشة عند وصول إشعار</string>
   <string name="network_adb_label">ADB عبر الشبكة</string>
+  <string name="heads_up_label">الإشعارات العائمة</string>
+  <string name="sync_label">مزامنة</string>
+  <string name="volume_panel_label">لوحة تحكم الصوت</string>
+  <string name="usb_tether_label">المشاركة عبر USB</string>
   <!-- Caffeine -->
 </resources>
