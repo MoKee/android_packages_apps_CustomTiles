@@ -24,7 +24,6 @@
   <string name="sync_label">Сінхранізацыя</string>
   <string name="volume_panel_label">Панэль гучнасці</string>
   <string name="usb_tether_label">USB-мадэм</string>
-  <string name="battery_saver_label">Эканомія зараду</string>
   <!-- Caffeine -->
   <string name="caffeine_label">Забарона сну</string>
 </resources>

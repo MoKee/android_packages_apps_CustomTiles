@@ -24,7 +24,6 @@
   <string name="sync_label">مزامنة</string>
   <string name="volume_panel_label">لوحة تحكم الصوت</string>
   <string name="usb_tether_label">المشاركة عبر USB</string>
-  <string name="battery_saver_label">موفِّر طاقة البطارية</string>
   <!-- Caffeine -->
   <string name="caffeine_label">وضع الكافيين</string>
 </resources>

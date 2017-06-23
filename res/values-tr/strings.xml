@@ -24,7 +24,6 @@
   <string name="sync_label">Senkronize</string>
   <string name="volume_panel_label">Ses Paneli</string>
   <string name="usb_tether_label">USB Bağlama</string>
-  <string name="battery_saver_label">Pil Tasarrufu</string>
   <!-- Caffeine -->
   <string name="caffeine_label">Kafein</string>
 </resources>

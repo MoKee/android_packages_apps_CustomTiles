@@ -22,6 +22,5 @@
   <string name="network_adb_label">ADB preko omrežja</string>
   <string name="heads_up_label">Obvestila na zaslonu</string>
   <string name="volume_panel_label">Plošča za glasnost</string>
-  <string name="battery_saver_label">Varčevanje z energijo</string>
   <!-- Caffeine -->
 </resources>
